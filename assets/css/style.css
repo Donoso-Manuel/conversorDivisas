@@ -1,0 +1,67 @@
+body {
+    background-color: #1d1f21;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.convertidor {
+    background-color: #3b3f44;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+
+.convertidor p {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.convertidor input, .convertidor select, .convertidor button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.convertidor input, .convertidor select {
+    background-color: white;
+    color: black;
+}
+
+.convertidor button {
+    background-color: rgb(49, 127, 153);
+    color: white;
+}
+
+.convertidor button:hover {
+    background-color: blue;
+}
+
+.resultado {
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+}
+.grafico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 35vh;
+    margin-top: 1rem;
+}
